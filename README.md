@@ -8,4 +8,4 @@ Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda ch
 
 Logica:
 - All'interno del for (100 giri) si controlla, attraverso con il modulo (%), se ogni numero è un multiplo di 3 o di 5. Nel primo caso al posto di 3 scriviamo in output Fizz, nel secondo scriviamo in output Buzz. Ma se il numero è sia multiplo di 3 che di 5 allora scrivo in output FizzBuzz.
-- si potrebbe fare un if con l'AND ($$). In questo caso preferisco fare soltato due if, che controllano se un numero e multiplo di 3 o di 5. Creo una variabile che viene inizializzata, all'interno del for, con il contatore del for, quando entra in un if sovrascrivo la variabile con il risultato che mi aspetto in output. Però se entra nell'if del 5, concateno la variabile con la scritta Buzz ma se sono già entrato nel primo if la variabile prima di entrare nel secondo if avrà già la scritta Fizz.
+- Faccio 3 if all'interno del for e controllo tutte e tre le condizioni e sovrascivo la variabile con il risultato atteso
